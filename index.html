@@ -7,224 +7,313 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
-        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Montserrat:wght@700;800&display=swap"
         rel="stylesheet">
     <link rel="stylesheet" href="Travel-website.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
-    <title>Travel</title>
+    <title>Travel Explorer | Discover Your Next Adventure</title>
 </head>
 
 <body>
     <header>
         <a href="#" class="Logo">Travel <span>Explorer</span></a>
         
-        <label for="toggle" class="icon"><i class="fa fa-bars icon"></i></label>
+        <label for="toggle" class="icon"><i class="fa-solid fa-bars"></i></label>
         <input type="checkbox" id="toggle">
         <nav>
             <ul>
-                <li><a href="#">Home</a></li>
-                <li><a href="#">Destinations</a></li>
-                <li><a href="#">Packages</a></li>
-                <li><a href="#">About Us</a></li>
-                <li><a href="#">Contact</a></li>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#destinations">Destinations</a></li>
+                <li><a href="#packages">Packages</a></li>
+                <li><a href="#vision">About Us</a></li>
+                <li><a href="#contact">Contact</a></li>
                 <div class="btn">
-                    <button>Book A trip</button>
+                    <button>Book A Trip</button>
                 </div>
             </ul>
         </nav>
     </header>
-    <div class="hero">
+
+    <section class="hero" id="home">
         <div class="content">
-            <h2>Explore the World with Us</h2>
-            <h4>Find the best travel packages for your next adventure</h4>
-            <button>View Destinations</button>
+            <h2>Discover Your Dream Destinations</h2>
+            <h4>Personalized travel experiences designed to create memories that last a lifetime</h4>
+            <button>Explore Now</button>
         </div>
-    </div>
-    <div class="destinations">
-        <h2>Popular Destinations</h2>
-        <div class="cards">
-            <div class="card">
-                <div class="imgbox">
-                    <img src="img/Dubia.jpg">
-                    <div class="content">
-                        <h2>Dubai</h2>
-                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Non voluptatibus cum quae natus at
-                            nisi</p>
+    </section>
+
+    <section class="destinations" id="destinations">
+        <div class="container">
+            <div class="section-heading">
+                <h2>Popular Destinations</h2>
+                <p>Explore our handpicked selection of the world's most breathtaking locations</p>
+            </div>
+            <div class="cards">
+                <div class="card">
+                    <div class="imgbox">
+                        <img src="img/Dubia.jpg" alt="Dubai">
+                        <div class="content">
+                            <h2>Dubai</h2>
+                            <p>Experience the luxurious blend of modern architecture and desert beauty in this vibrant city</p>
+                        </div>
+                    </div>
+                    <div class="card-footer">
+                        <button>Explore Dubai</button>
                     </div>
                 </div>
-                <button>View All Destinations</button>
-            </div>
-            <div class="card">
-                <div class="imgbox">
-                    <img src="img/France.jpg">
-                    <div class="content">
-                        <h2>France</h2>
-                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Non voluptatibus cum quae natus at
-                            nisi</p>
+
+                <div class="card">
+                    <div class="imgbox">
+                        <img src="img/France.jpg" alt="France">
+                        <div class="content">
+                            <h2>France</h2>
+                            <p>Immerse yourself in art, cuisine, and history in one of Europe's most romantic countries</p>
+                        </div>
+                    </div>
+                    <div class="card-footer">
+                        <button>Explore France</button>
                     </div>
                 </div>
-                <button>View All Destinations</button>
-            </div>
-            <div class="card">
-                <div class="imgbox">
-                    <img src="img/America.jpg">
-                    <div class="content">
-                        <h2>America</h2>
-                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Non voluptatibus cum quae natus at
-                            nisi</p>
+
+                <div class="card">
+                    <div class="imgbox">
+                        <img src="img/America.jpg" alt="America">
+                        <div class="content">
+                            <h2>United States</h2>
+                            <p>Discover diverse landscapes from bustling cities to breathtaking national parks</p>
+                        </div>
+                    </div>
+                    <div class="card-footer">
+                        <button>Explore USA</button>
                     </div>
                 </div>
-                <button>View All Destinations</button>
-            </div>
-            <div class="card">
-                <div class="imgbox">
-                    <img src="img/China.jpg">
-                    <div class="content">
-                        <h2>China</h2>
-                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Non voluptatibus cum quae natus at
-                            nisi</p>
+
+                <div class="card">
+                    <div class="imgbox">
+                        <img src="img/China.jpg" alt="China">
+                        <div class="content">
+                            <h2>China</h2>
+                            <p>Explore ancient traditions alongside futuristic innovation in this fascinating country</p>
+                        </div>
+                    </div>
+                    <div class="card-footer">
+                        <button>Explore China</button>
                     </div>
                 </div>
-                <button>View All Destinations</button>
-            </div>
-            <div class="card">
-                <div class="imgbox">
-                    <img src="img/Kenya.jpg">
-                    <div class="content">
-                        <h2>Kenya</h2>
-                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Non voluptatibus cum quae natus at
-                            nisi</p>
+
+                <div class="card">
+                    <div class="imgbox">
+                        <img src="img/Kenya.jpg" alt="Kenya">
+                        <div class="content">
+                            <h2>Kenya</h2>
+                            <p>Experience incredible wildlife, stunning landscapes and rich cultural traditions</p>
+                        </div>
+                    </div>
+                    <div class="card-footer">
+                        <button>Explore Kenya</button>
                     </div>
                 </div>
-                <button>View All Destinations</button>
-            </div>
-            <div class="card">
-                <div class="imgbox">
-                    <img src="img/Brazil.jpg">
-                    <div class="content">
-                        <h2>Brazil</h2>
-                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Non voluptatibus cum quae natus at
-                            nisi</p>
+
+                <div class="card">
+                    <div class="imgbox">
+                        <img src="img/Brazil.jpg" alt="Brazil">
+                        <div class="content">
+                            <h2>Brazil</h2>
+                            <p>Feel the rhythm of samba, explore rainforests, and relax on pristine beaches</p>
+                        </div>
+                    </div>
+                    <div class="card-footer">
+                        <button>Explore Brazil</button>
                     </div>
                 </div>
-                <button>View All Destinations</button>
-            </div>
-        </div>
-    </div>
-    <div class="Packages">
-        <h2>Travel Packages</h2>
-        <div class="cards">
-            <div class="card">
-                <div class="imgbox">
-                    <img src="img/France.jpg">
-                </div>
-                <div class="title">
-                    <h3>7 Days Paris</h3>
-                    <p>Explore the beauty of Bali with our exclusive package</p>
-                    <h4>$129.99</h4>
-                </div>
-                <button>Book Now</button>
-            </div>
-            <div class="card">
-                <div class="imgbox">
-                    <img src="img/South Africa.jpg">
-                </div>
-                <div class="title">
-                    <h3>12 South Africa</h3>
-                    <p>Explore the beauty of Bali with our exclusive package</p>
-                    <h4>$249.99</h4>
-                </div>
-                <button>Book Now</button>
-            </div>
-            <div class="card">
-                <div class="imgbox">
-                    <img src="img/Kenya.jpg">
-                </div>
-                <div class="title">
-                    <h3>30 Days Kenya</h3>
-                    <p>Explore the beauty of Bali with our exclusive package</p>
-                    <h4>$499.99</h4>
-                </div>
-                <button>Book Now</button>
             </div>
         </div>
-    </div>
-    <div class="vision">
-        <h2>Vision</h2>
-        <div class="row">
-            <div class="col1">
-                <h4>Our vision is to make travel accessible and enjoyable for everyone, creating unforgettable
-                    experiences around the world</h4>
+    </section>
+
+    <section class="packages" id="packages">
+        <div class="container">
+            <div class="section-heading">
+                <h2>Travel Packages</h2>
+                <p>Carefully curated packages for the perfect getaway experience</p>
             </div>
-            <div class="col2">
-                <img src="img/About-img1.jpg">
+            <div class="cards">
+                <div class="card">
+                    <div class="imgbox">
+                        <img src="img/France.jpg" alt="Paris Package">
+                    </div>
+                    <div class="title">
+                        <h3>7 Days in Paris</h3>
+                        <p>Experience the romance and charm of the City of Light with our exclusive Paris package</p>
+                        <h4>$1,299</h4>
+                        <button>Book Now</button>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="imgbox">
+                        <img src="img/South Africa.jpg" alt="South Africa Package">
+                    </div>
+                    <div class="title">
+                        <h3>12 Days in South Africa</h3>
+                        <p>Embark on an unforgettable journey through wildlife reserves and vibrant cities</p>
+                        <h4>$2,499</h4>
+                        <button>Book Now</button>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="imgbox">
+                        <img src="img/Kenya.jpg" alt="Kenya Package">
+                    </div>
+                    <div class="title">
+                        <h3>10 Days in Kenya</h3>
+                        <p>Witness the majestic wildlife and breathtaking landscapes in this safari adventure</p>
+                        <h4>$1,999</h4>
+                        <button>Book Now</button>
+                    </div>
+                </div>
             </div>
         </div>
-    </div>
-    <div class="customers">
-        <h2>What Our Customers Say</h2>
-        <div class="cards">
-            <div class="card">
-                <div class="imgbox">
-                    <img src="img/user1.jpg">
-                </div>
-                <h3>Amazing experience! I loved<br> the trip to Kenya</h5>
+    </section>
+
+    <section class="vision" id="vision">
+        <div class="container">
+            <div class="section-heading">
+                <h2>Our Vision</h2>
+                <p>Creating unforgettable travel experiences for every explorer</p>
             </div>
-            <div class="card">
-                <div class="imgbox">
-                    <img src="img/user3.jpg">
+            <div class="row">
+                <div class="col1">
+                    <h4>At Travel Explorer, we believe in creating journeys that transform lives. Our vision is to make travel accessible and enjoyable for everyone, curating experiences that connect you with diverse cultures, breathtaking landscapes, and unforgettable memories. We are committed to sustainable tourism practices that respect local communities and preserve natural environments for future generations of travelers.</h4>
                 </div>
-                <h3>Amazing experience! I loved<br> the trip to France</h5>
-            </div>
-            <div class="card">
-                <div class="imgbox">
-                    <img src="img/user2.jpg">
+                <div class="col2">
+                    <img src="img/About-img1.jpg" alt="Our Vision">
                 </div>
-                <h3>Amazing experience! I loved<br> the trip to South Africa</h5>
             </div>
         </div>
-    </div>
+    </section>
+
+    <section class="customers" id="testimonials">
+        <div class="container">
+            <div class="section-heading">
+                <h2>What Our Travelers Say</h2>
+                <p>Real experiences from our satisfied customers</p>
+            </div>
+            <div class="cards">
+                <div class="card">
+                    <div class="imgbox">
+                        <img src="img/user1.jpg" alt="Customer Testimonial">
+                    </div>
+                    <h3>"Our safari in Kenya was absolutely perfect! The guides were knowledgeable and we saw all the Big Five. Travel Explorer made it effortless!"</h3>
+                    <p><strong>Sarah Johnson</strong> • Kenya Safari</p>
+                </div>
+
+                <div class="card">
+                    <div class="imgbox">
+                        <img src="img/user3.jpg" alt="Customer Testimonial">
+                    </div>
+                    <h3>"The Paris package exceeded my expectations. The hotel was charming and centrally located, making it easy to explore the city. Truly magical!"</h3>
+                    <p><strong>Michael Roberts</strong> • Paris Experience</p>
+                </div>
+
+                <div class="card">
+                    <div class="imgbox">
+                        <img src="img/user2.jpg" alt="Customer Testimonial">
+                    </div>
+                    <h3>"Our South African adventure was the trip of a lifetime! From Cape Town to Kruger Park, every detail was perfectly arranged by Travel Explorer."</h3>
+                    <p><strong>Emma Davis</strong> • South Africa Tour</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="newsletter" id="contact">
+        <div class="container">
+            <div class="section-heading">
+                <h2>Stay Updated</h2>
+                <p>Subscribe to our newsletter for exclusive travel deals and inspiration</p>
+            </div>
+            <div class="newsletter-form">
+                <form>
+                    <div class="form-group">
+                        <input type="email" placeholder="Your email address" required>
+                        <button type="submit">Subscribe</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </section>
+
     <footer>
-        <div class="row1">
-            <div class="col">
-                <h3>About Us</h3>
-                <h5>We are a travel agency dedicated to<br> making your trips unforgettable.</h5>
-                <h2>Travel <span>Explorer</span></h2>
-            </div>
-            <div class="col">
-                <h3>Services</h3>
-                <ul>
-                    <li><a href="#">Flights</a></li>
-                    <li><a href="#">Hotels</a></li>
-                    <li><a href="#">Tours</a></li>
-                    <li><a href="#">Car Rentals</a></li>
-                </ul>
-
-            </div>
-            <div class="col">
-                <h3>Follow Us</h3>
-                <div class="socials">
-                    <img src="img/facebook_1384053.png" width="10px">
-                    <img src="img/instagram_2111463.png" width="10px">
-                    <img src="img/linkedin_3536505.png" width="10px">
-                    <img src="img/youtube_3938026.png" width="10px">
+        <div class="container">
+            <div class="row1">
+                <div class="col">
+                    <h3>About Us</h3>
+                    <h5>We are a premium travel agency dedicated to creating unforgettable experiences tailored to your preferences and dreams.</h5>
+                    <h2>Travel <span>Explorer</span></h2>
                 </div>
-
+                <div class="col">
+                    <h3>Our Services</h3>
+                    <ul>
+                        <li><a href="#">Luxury Flights</a></li>
+                        <li><a href="#">Boutique Hotels</a></li>
+                        <li><a href="#">Guided Tours</a></li>
+                        <li><a href="#">Premium Car Rentals</a></li>
+                        <li><a href="#">Custom Itineraries</a></li>
+                    </ul>
+                </div>
+                <div class="col">
+                    <h3>Connect With Us</h3>
+                    <div class="socials">
+                        <a href="#"><img src="img/facebook_1384053.png" alt="Facebook"></a>
+                        <a href="#"><img src="img/instagram_2111463.png" alt="Instagram"></a>
+                        <a href="#"><img src="img/linkedin_3536505.png" alt="LinkedIn"></a>
+                        <a href="#"><img src="img/youtube_3938026.png" alt="YouTube"></a>
+                    </div>
+                </div>
+                <div class="col">
+                    <h3>Contact Information</h3>
+                    <ul>
+                        <li><a href="mailto:info@travelexplorer.com"><i class="fa-solid fa-envelope"></i> info@travelexplorer.com</a></li>
+                        <li><a href="tel:+12345678900"><i class="fa-solid fa-phone"></i> +1 (234) 567-8900</a></li>
+                        <li><a href="#"><i class="fa-solid fa-location-dot"></i> 123 Adventure Ave, Traveler's District, World</a></li>
+                    </ul>
+                </div>
             </div>
-            <div class="col">
-                <h3>Contact Us</h3>
-                <ul>
-                    <li><a href="#">Email: info@travelexplorer.com</a></li>
-                    <li><a href="#">Phone: +123 456 7890</a></li>
-                    <li><a href="#">Address: 123 Travel Street, City, Country</a></li>
-                </ul>
+            <div class="row2">
+                <h6>© 2025 Travel Explorer | All Rights Reserved | <a href="#">Privacy Policy</a> | <a href="#">Terms of Service</a></h6>
             </div>
-        </div>
-        <div class="row2">
-            <h6>copy Right 2024 | Travel Explorer</h6>
         </div>
     </footer>
 
+    <script>
+        // Simple script to make the header change on scroll
+        window.addEventListener('scroll', function() {
+            const header = document.querySelector('header');
+            header.classList.toggle('scrolled', window.scrollY > 50);
+        });
+
+        // Mobile menu toggle
+        const toggle = document.getElementById('toggle');
+        const nav = document.querySelector('nav');
+        
+        toggle.addEventListener('change', function() {
+            if(this.checked) {
+                nav.style.right = '0';
+            } else {
+                nav.style.right = '-100%';
+            }
+        });
+
+        // Close menu when clicking a link (for mobile)
+        const navLinks = document.querySelectorAll('nav ul li a');
+        navLinks.forEach(link => {
+            link.addEventListener('click', () => {
+                toggle.checked = false;
+                nav.style.right = '-100%';
+            });
+        });
+    </script>
 </body>
 
 </html>
